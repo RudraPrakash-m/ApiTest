@@ -14,8 +14,6 @@ const Users = () => {
     setLoading(true);
   };
 
-  console.log(data);
-
   useEffect(() => {
     fetchData();
   }, []);
